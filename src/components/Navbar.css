@@ -60,7 +60,7 @@
 .quote-btn:hover {
   background: #ffffff !important;
   color: #1d4791 !important;
-  border: 2px solid #1d4791;
+  border: 2px solid #1d4791 !important;
 }
 
 .navbar-toggler {

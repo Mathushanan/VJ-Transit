@@ -5,7 +5,7 @@ import logo from "../assets/logo.png";
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg vj-navbar">
-      <div className="container">
+      <div className="container ">
         {/* Logo */}
         <NavLink className="navbar-brand vj-logo" to="/">
           <img src={logo} alt="VJ Transit" className="vj-logo-img" />
