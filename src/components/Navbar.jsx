@@ -98,7 +98,7 @@ function Navbar() {
           {/* Quote Button */}
           <NavLink className="btn quote-btn" to="/quote">
             Get a Quote
-            <i className="bi bi-file-earmark-text ms-2"></i>
+            <i className="bi bi-arrow-right ms-2"></i>
           </NavLink>
         </div>
       </div>

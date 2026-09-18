@@ -6,34 +6,13 @@ function Home() {
   return (
     <main>
       {/* ================= HERO SECTION ================= */}
-      <section className="hero-section border">
+      <section className="hero-section ">
         {/* Background overlay */}
-        <div className="hero-overlay border"></div>
+        <div className="hero-overlay "></div>
 
-        <div className="container hero-content border">
-          <div className="row border">
-            <div className="col-lg-7">
-              <div className="hero-badges">
-                <div className="hero-badge">
-                  <i className="bi bi-truck"></i>
-                  Road Freight
-                </div>
-
-                <div className="hero-badge">
-                  <i className="bi bi-airplane"></i>
-                  Air Freight
-                </div>
-
-                <div className="hero-badge">
-                  <i className="bi bi-ship"></i>
-                  Sea Freight
-                </div>
-
-                <div className="hero-badge">
-                  <i className="bi bi-building"></i>
-                  Contract Logistics
-                </div>
-              </div>
+        <div className="container hero-content ">
+          <div className="row ">
+            <div className="col-lg-7 ">
               <h1 className="hero-title">
                 Reliable Container Transport.
                 <span> Built Around Your Business!</span>
@@ -57,18 +36,63 @@ function Home() {
 
               <div className="hero-trust">
                 <div className="trust-item">
-                  <i className="bi bi-check-circle-fill"></i>
+                  <i className="bi bi-shield-fill-check"></i>
                   Reliable Service
                 </div>
 
                 <div className="trust-item">
-                  <i className="bi bi-check-circle-fill"></i>
+                  <i className="bi bi-shield-fill-check"></i>
                   Professional Drivers
                 </div>
 
                 <div className="trust-item">
-                  <i className="bi bi-check-circle-fill"></i>
+                  <i className="bi bi-shield-fill-check"></i>
                   Flexible Solutions
+                </div>
+              </div>
+            </div>
+
+            {/* RIGHT COLUMN */}
+            <div className="col-lg-5 d-flex align-items-center">
+              <div className="hero-badges ">
+                <div className="hero-badge">
+                  <div className="badge-icon">
+                    <i className="bi bi-truck"></i>
+                  </div>
+                  <div>
+                    <h6>Road Freight</h6>
+                    <p>Reliable road transport</p>
+                  </div>
+                </div>
+
+                <div className="hero-badge">
+                  <div className="badge-icon">
+                    <i className="bi bi-airplane"></i>
+                  </div>
+                  <div>
+                    <h6>Air Freight</h6>
+                    <p>Fast global delivery</p>
+                  </div>
+                </div>
+
+                <div className="hero-badge">
+                  <div className="badge-icon">
+                    <i className="bi bi-ship"></i>
+                  </div>
+                  <div>
+                    <h6>Sea Freight</h6>
+                    <p>Global ocean transport</p>
+                  </div>
+                </div>
+
+                <div className="hero-badge">
+                  <div className="badge-icon">
+                    <i className="bi bi-building"></i>
+                  </div>
+                  <div>
+                    <h6>Contract Logistics</h6>
+                    <p>Flexible logistics support</p>
+                  </div>
                 </div>
               </div>
             </div>
